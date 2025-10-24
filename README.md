@@ -127,6 +127,21 @@ CH3CO on a 4-by-4 7-layer Cu (100) slab.
   72 SCF cycles; 1785s; 25s/iteration; group compiled version **231208**--INTEL AVX512?
 
 
+## Other bugs
+I saw this error with version **250918** on hawk and falcon.
+
+>Abort(1090831) on node 0 (rank 0 in comm 0):
+
+>Fatal error in PMPI_Init: Unknown error class, error stack:
+>
+>MPIR_Init_thread(196)...:
+>
+>MPID_Init(1699).........:
+>
+>MPIDU_Init_shm_init(185): unable to allocate shared memory
+
+
+
 
 
   
