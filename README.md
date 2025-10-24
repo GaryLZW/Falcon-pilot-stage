@@ -116,9 +116,9 @@ CH3CO on a 4-by-4 7-layer Cu (100) slab.
 
 + 192-core calculation
   
-  HAWK: 72 SCF cycles; 916 s; group compiled version **231208**--INTEL AVX512?; -5078049.234 eV
+  HAWK: 72 SCF cycles; 916 s; 13s/iteration; group compiled version **231208**--INTEL AVX512?; -5078049.234 eV
   
-  FALCON: 109 SCF cycles; 1963 s; self-compiled version **250918**; -5078134.282 eV
+  FALCON: 109 SCF cycles; 1963 s; 18s/iteration; self-compiled version **250918**; -5078134.282 eV
 
   From aims **250822**,
   Using PBE minimal basis for metaGGAs by default (Sebastian Kokott, breaking change, can be overridden with atomic_solver_xc pw-lda)
