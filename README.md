@@ -120,9 +120,9 @@ CH3CO on a 4-by-4 7-layer Cu (100) slab.
   
   FALCON: 109 SCF cycles; 1963 s; self-compiled version **250918**; -5078134.282 eV
 
-  Not sure about the energy difference.
-  
-+ 2 node on Hawk *vs* 1 node on Falcon
+  From aims **250822**,
+  Using PBE minimal basis for metaGGAs by default (Sebastian Kokott, breaking change, can be overridden with atomic_solver_xc pw-lda)
+
 
 
 
